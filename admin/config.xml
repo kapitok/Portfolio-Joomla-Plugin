@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- see http://docs.joomla.org/Standard_parameter_types -->
+<config>
+	<fieldset name="lbportfolio" label="Portfolio Settings" description="Settings for Portfolio display">
+	
+		<field name="param_img_size" type="text" default="350" label="Portfolio image size" description="Parameter for resizer" />
+		
+		<field name="param_img_thumb_size" type="text" default="250" label="Portfolio thumbnail size" description="Parameter for resizer" />
+		
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<field name="param_portfolio_easing" type="list" default="easeInOutCirc" label="Portfolio Easing" description="Animation type">
+			<option value="easeInOutCirc">easeInOutCirc</option>
+			<option value="easeInSine">easeInSine</option>
+			<option value="easeInBack">easeInBack</option>
+			<option value="easeInQuad">easeInQuad</option>
+			<option value="easeOutElastic">easeOutElastic</option>
+			<option value="easeInOutBack">easeInOutBack</option>
+			<option value="easeOutBounce">easeOutBounce</option>
+			<option value="easeInQuad">easeInQuad</option>
+			<option value="easeOutQuad">easeOutQuad</option>
+			<option value="easeInOutQuad">easeInOutQuad</option>
+			<option value="easeInCubi">easeInCubi</option>
+			<option value="easeInOutCubic">easeInOutCubic</option>
+			
+		</field>
+		
+		<field name="param_portfolio_duration" type="text" default="750" label="Portfolio Duration" description="Delay slides" />
+		
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<field name="param_portfolio_adjust_height" type="list" default="dynamic" label="Adjust Height" description="Adjusts the height of container to fit all the items, 'auto' for automatically adjusting before or after the animation (determined automatically), 'dynamic' for height adjustment animation, false for keeping the height constant.">
+			<option value="auto">auto</option>
+			<option value="dynamic">dynamic</option>
+		</field>
+		
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<field name="param_show_desc_cat" type="radio" default="0" label="Show Categories Description" description="Show Description of Categories in filter">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</field>
+		
+		<field name="@spacer" type="spacer" default="" label="" description="" />
+
+	</fieldset>
+	<!--
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_lbportfolio" section="component" />
+	</fieldset>
+	-->
+
+</config>

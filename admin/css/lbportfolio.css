@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.lbportfolio-item-edit {
+	background-image: url('img/ico_edit.png');
+	}
+
+.lb-img-container {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+.lb-img-container img {
+	border: 2px solid;
+	}

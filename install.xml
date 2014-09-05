@@ -1,0 +1,144 @@
+<extension type="component" version="1.7.0" method="upgrade">
+<name>lbportfolio</name>
+<creationDate>14.09.2012</creationDate>
+<author>Lozynskyy</author>
+<authorEmail>lbond@meta.ua</authorEmail>
+<copyright>Copyright Info</copyright>
+<license>GNU/GPL v2</license>
+<!--  The version string is recorded in the components table -->
+<version>2.1.0</version>
+<!-- The description is optional and defaults to the name -->
+<description>Portfolio</description>
+
+<install>
+<sql>
+<file charset="utf8" driver="mysql">sql/install.sql</file>
+</sql>
+</install>
+<uninstall>
+<sql>
+<file charset="utf8" driver="mysql">sql/uninstall.sql</file>
+</sql>
+</uninstall>
+
+<files folder="site">
+<filename>index.html</filename>
+<filename>lbportfolio.php</filename>
+<filename>controller.php</filename>
+<filename>views/index.html</filename>
+<filename>models/index.html</filename>
+
+<filename>views/lbportfolioitem/index.html</filename>
+<filename>views/lbportfolioitem/view.html.php</filename>
+<filename>views/lbportfolioitem/tmpl/default.php</filename>
+<filename>views/lbportfolioitem/tmpl/index.html</filename>
+<filename>models/lbportfolioitem.php</filename>
+
+<filename>models/lbportfoliocontent.php</filename>
+<filename>models/lbportfoliocontentlist.php</filename>
+
+
+<filename>views/lbportfolioitemlist/index.html</filename>
+<filename>views/lbportfolioitemlist/view.html.php</filename>
+<filename>views/lbportfolioitemlist/tmpl/default.xml</filename>
+<filename>views/lbportfolioitemlist/tmpl/default.php</filename>
+<filename>views/lbportfolioitemlist/tmpl/index.html</filename>
+<filename>models/lbportfolioitemlist.php</filename>
+
+<filename>css/index.html</filename>
+<filename>css/style.css</filename>
+
+<filename>js/index.html</filename>
+<filename>js/jquery-1.8.1.js</filename>
+<filename>js/jquery-1.8.1.min.js</filename>
+<filename>js/jquery.custom.js</filename>
+<filename>js/jquery.easing.1.3.js</filename>
+<filename>js/jquery.prettyPhoto.js</filename>
+<filename>js/jquery.quicksand.js</filename>
+
+</files>
+<languages>
+<language tag="en-GB">languages/en-GB.com_lbportfolio.ini</language>
+<language tag="uk-UA">languages/uk-UA.com_lbportfolio.ini</language>
+</languages>
+
+<administration>
+<menu>lbportfolio</menu>
+<!-- Administration Main File Copy Section -->
+<files folder="admin">
+<!-- Site Main File Copy Section -->
+<filename>index.html</filename>
+<filename>lbportfolio.php</filename>
+<filename>controller.php</filename>
+<filename>config.xml</filename>
+<filename>access.xml</filename>
+<filename>controllers/index.html</filename>
+<filename>models/index.html</filename>
+<filename>tables/index.html</filename>
+<filename>views/index.html</filename>
+
+<filename>views/lbportfoliocat/index.html</filename>
+<filename>views/lbportfoliocat/view.html.php</filename>
+<filename>views/lbportfoliocat/tmpl/default.php</filename>
+<filename>views/lbportfoliocat/tmpl/index.html</filename>
+<filename>models/lbportfoliocat.php</filename>
+<filename>controllers/lbportfoliocat.php</filename>
+<filename>tables/lbportfoliocat.php</filename>
+
+<filename>views/lbportfoliocontent/index.html</filename>
+<filename>views/lbportfoliocontent/view.html.php</filename>
+<filename>views/lbportfoliocontent/tmpl/default.php</filename>
+<filename>views/lbportfoliocontent/tmpl/index.html</filename>
+<filename>models/lbportfoliocontent.php</filename>
+<filename>controllers/lbportfoliocontent.php</filename>
+<filename>tables/lbportfoliocontent.php</filename>
+
+<filename>views/lbportfolioitem/index.html</filename>
+<filename>views/lbportfolioitem/view.html.php</filename>
+<filename>views/lbportfolioitem/tmpl/default.php</filename>
+<filename>views/lbportfolioitem/tmpl/index.html</filename>
+<filename>models/lbportfolioitem.php</filename>
+<filename>controllers/lbportfolioitem.php</filename>
+<filename>tables/lbportfolioitem.php</filename>
+
+<filename>views/lbportfoliocatlist/index.html</filename>
+<filename>views/lbportfoliocatlist/view.html.php</filename>
+<filename>views/lbportfoliocatlist/tmpl/default.php</filename>
+<filename>views/lbportfoliocatlist/tmpl/index.html</filename>
+<filename>models/lbportfoliocatlist.php</filename>
+<filename>controllers/lbportfoliocatlist.php</filename>
+
+<filename>views/lbportfoliocontentlist/index.html</filename>
+<filename>views/lbportfoliocontentlist/view.html.php</filename>
+<filename>views/lbportfoliocontentlist/tmpl/default.php</filename>
+<filename>views/lbportfoliocontentlist/tmpl/index.html</filename>
+<filename>models/lbportfoliocontentlist.php</filename>
+<filename>controllers/lbportfoliocontentlist.php</filename>
+
+<filename>views/lbportfolioitemlist/index.html</filename>
+<filename>views/lbportfolioitemlist/view.html.php</filename>
+<filename>views/lbportfolioitemlist/tmpl/default.php</filename>
+<filename>views/lbportfolioitemlist/tmpl/index.html</filename>
+<filename>models/lbportfolioitemlist.php</filename>
+<filename>controllers/lbportfolioitemlist.php</filename>
+
+<filename>sql/index.html</filename>
+<filename>sql/install.sql</filename>
+<filename>sql/uninstall.sql</filename>
+<filename>sql/updates/2.1.0.sql</filename>
+
+
+<filename>css/index.html</filename>
+<filename>css/lbportfolio.css</filename>
+
+</files>
+<languages>
+<language tag="en-GB">languages/en-GB.com_lbportfolio.ini</language>
+<language tag="uk-UA">languages/uk-UA.com_lbportfolio.ini</language>
+
+<language tag="en-GB">languages/en-GB.com_lbportfolio.sys.ini</language>
+<language tag="uk-UA">languages/uk-UA.com_lbportfolio.sys.ini</language>
+
+</languages>
+</administration>
+</extension>
